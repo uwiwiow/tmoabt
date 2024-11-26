@@ -7,7 +7,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*/news/*/cascade*", "*://*/news/*/paginated/*"],
+      "matches": ["*://*/news/*/cascade*", "*://*/news/*/paginated*"],
       "js": [ "content.js" ]
     }
   ]

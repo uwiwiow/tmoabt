@@ -5,6 +5,9 @@ if (match && match[1].length > 12) {
     if (matchOptions[1] === "cascade1") {
         matchOptions[1] = "cascade";
     }
+    if (matchOptions[1] === "paginated1") {
+        matchOptions[1] = "paginated";
+    }
     if (matchOptions) {
         window.location.replace("https://zonatmo.com/viewer/" + id + "/" + matchOptions[1]);
     } else window.location.replace("https://zonatmo.com/viewer/" + id);
