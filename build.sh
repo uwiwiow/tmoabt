@@ -1,1 +1,1 @@
-zip -r -FS ./tmoabt.zip ./* --exclude '*.git*' '.idea' 'build.sh'
+zip -r -FS ./tmoabt.zip src/*
