@@ -1,1 +1,2 @@
-zip -r -FS ./tmoabt.zip src/*
+cd src || return
+zip -r -FS ../tmoabt.zip ./*
